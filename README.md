@@ -151,4 +151,4 @@ npm run dev
 
 **2.0.0.0**
 - **Added:** SDK v2 port, built with CAW. Projects made with the SDK v1 version load without changes.
-- **Fixed:** Set scroll direction, Set horizontal align, Set vertical align and Set align now work. They were broken in v1. Scroll direction is now kept in savegames. Removed a wrong max value of 1 on the Overscroll push back and Overscroll deceleration ratio properties.
+- **Fixed:** Set scroll direction, Set horizontal align, Set vertical align and Set align now work. They were broken in v1. The Enabled property and Set enabled now actually pause the behavior. Scroll direction is now kept in savegames. Removed a wrong max value of 1 on the Overscroll push back and Overscroll deceleration ratio properties.
