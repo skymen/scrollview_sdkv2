@@ -1,14 +1,14 @@
 <img src="./examples/cover.png" width="150" /><br>
 # Scroll View
 <i>Handles scrolling a given instance over the area of the object</i> <br>
-### Version 2.0.0.1
+### Version 2.0.0.2
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.1.c3addon/skymen_scrollview-2.0.0.1.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.2.c3addon/skymen_scrollview-2.0.0.2.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/scrollview_sdkv2/releases) </sub> <br>
 
-#### What's New in 2.0.0.1
-- **Fixed:** Bottom overscroll now springs back smoothly like the other sides. It used to get removed in a single frame, which made it look capped. The bug also exists in the old SDK v1 version.
+#### What's New in 2.0.0.2
+- **Changed:** ACE definitions moved to one file per ACE. No behavior change.
 
 <sub>[View full changelog](#changelog)</sub>
 
@@ -145,6 +145,9 @@ npm run dev
 
 ---
 ## Changelog
+
+**2.0.0.2**
+- **Changed:** ACE definitions moved to one file per ACE. No behavior change.
 
 **2.0.0.1**
 - **Fixed:** Bottom overscroll now springs back smoothly like the other sides. It used to get removed in a single frame, which made it look capped. The bug also exists in the old SDK v1 version.

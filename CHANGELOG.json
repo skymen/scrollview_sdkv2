@@ -1,4 +1,9 @@
 {
+  "2.0.0.2": {
+    "added": "",
+    "changed": "ACE definitions moved to one file per ACE. No behavior change.",
+    "fixed": ""
+  },
   "2.0.0.1": {
     "added": "",
     "changed": "",
