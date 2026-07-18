@@ -1,4 +1,4 @@
-<img src="./src/icon.svg" width="100" /><br>
+<img src="./examples/cover.png" width="150" /><br>
 # Scroll View
 <i>Handles scrolling a given instance over the area of the object</i> <br>
 ### Version 2.0.0.1
