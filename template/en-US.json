@@ -1,0 +1,576 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for skymen_scrollview.",
+  "text": {
+    "behaviors": {
+      "skymen_scrollview": {
+        "name": "Scroll View",
+        "description": "Handles scrolling a given instance over the area of the object",
+        "help-url": "https://www.construct.net/en/make-games/addons/1187/scroll-view",
+        "aceCategories": {
+          "general": "General",
+          "properties": "Properties"
+        },
+        "properties": {
+          "max-speed": {
+            "name": "Max speed",
+            "desc": "Max speed"
+          },
+          "deceleration": {
+            "name": "Deceleration",
+            "desc": "Deceleration"
+          },
+          "overscroll-pushback": {
+            "name": "Overscroll push back",
+            "desc": "Overscroll push back"
+          },
+          "overscroll-deceleration-ratio": {
+            "name": "Overscroll deceleration ratio",
+            "desc": "Overscroll deceleration ratio"
+          },
+          "scroll-direction": {
+            "name": "Scroll direction",
+            "desc": "Scroll direction",
+            "items": {
+              "vertical": "vertical",
+              "horizontal": "horizontal",
+              "both": "both"
+            }
+          },
+          "align-horizontal": {
+            "name": "Horizontal align",
+            "desc": "Horizontal align",
+            "items": {
+              "left": "left",
+              "center": "center",
+              "right": "right"
+            }
+          },
+          "align-vertical": {
+            "name": "Vertical align",
+            "desc": "Vertical align",
+            "items": {
+              "top": "top",
+              "center": "center",
+              "bottom": "bottom"
+            }
+          },
+          "margin-left": {
+            "name": "Margin left",
+            "desc": "Margin left"
+          },
+          "margin-top": {
+            "name": "Margin top",
+            "desc": "Margin top"
+          },
+          "margin-right": {
+            "name": "Margin right",
+            "desc": "Margin right"
+          },
+          "margin-bottom": {
+            "name": "Margin bottom",
+            "desc": "Margin bottom"
+          },
+          "overscroll": {
+            "name": "Max Overscroll",
+            "desc": "How much overscroll is allowed"
+          },
+          "show-overscroll": {
+            "name": "Show overscroll",
+            "desc": "Show overscroll"
+          },
+          "pick-first-child-as-instance": {
+            "name": "Pick first child as instance",
+            "desc": "Pick first child as instance"
+          },
+          "enable-snapping": {
+            "name": "Enable snapping",
+            "desc": "Enable snapping"
+          },
+          "snap-speed-threshold": {
+            "name": "Snap speed threshold",
+            "desc": "Snap speed threshold"
+          },
+          "snap-distance-threshold": {
+            "name": "Snap distance threshold",
+            "desc": "Snap distance threshold"
+          },
+          "snap-speed": {
+            "name": "Snap speed",
+            "desc": "Snap speed"
+          },
+          "nb-columns": {
+            "name": "Nb columns",
+            "desc": "Nb columns"
+          },
+          "nb-rows": {
+            "name": "Nb rows",
+            "desc": "Nb rows"
+          },
+          "enable": {
+            "name": "Enabled",
+            "desc": "Enabled"
+          }
+        },
+        "actions": {
+          "SetAlign": {
+            "list-name": "Set align",
+            "display-text": "{my}: Set align to [i]{0}[/i], [i]{1}[/i]",
+            "description": "Set align",
+            "params": {
+              "alignHorizontal": {
+                "name": "Horizontal align",
+                "desc": "Horizontal align",
+                "items": {
+                  "left": "left",
+                  "center": "center",
+                  "right": "right"
+                }
+              },
+              "alignVertical": {
+                "name": "Vertical align",
+                "desc": "Vertical align",
+                "items": {
+                  "top": "top",
+                  "center": "center",
+                  "bottom": "bottom"
+                }
+              }
+            }
+          },
+          "SetAlignHorizontal": {
+            "list-name": "Set horizontal align",
+            "display-text": "{my}: Set horizontal align to [i]{0}[/i]",
+            "description": "Set horizontal align",
+            "params": {
+              "align": {
+                "name": "Align",
+                "desc": "Align",
+                "items": {
+                  "left": "left",
+                  "center": "center",
+                  "right": "right"
+                }
+              }
+            }
+          },
+          "SetAlignVertical": {
+            "list-name": "Set vertical align",
+            "display-text": "{my}: Set vertical align to [i]{0}[/i]",
+            "description": "Set vertical align",
+            "params": {
+              "align": {
+                "name": "Align",
+                "desc": "Align",
+                "items": {
+                  "top": "top",
+                  "center": "center",
+                  "bottom": "bottom"
+                }
+              }
+            }
+          },
+          "SetEnabled": {
+            "list-name": "Set enabled",
+            "display-text": "{my}: Set enabled to [i]{0}[/i]",
+            "description": "Set enabled",
+            "params": {
+              "enabled": {
+                "name": "Enabled",
+                "desc": "Enabled"
+              }
+            }
+          },
+          "SetInstance": {
+            "list-name": "Set instance",
+            "display-text": "{my}: Set instance to [i]{0}[/i]",
+            "description": "Set instance",
+            "params": {
+              "instance": {
+                "name": "Instance",
+                "desc": "Instance"
+              }
+            }
+          },
+          "SetProgressX": {
+            "list-name": "Set progress X",
+            "display-text": "{my}: Set scroll progress X to [i]{0}[/i]",
+            "description": "Set progress X",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X from 0 to 1"
+              }
+            }
+          },
+          "SetProgressXY": {
+            "list-name": "Set progress",
+            "display-text": "{my}: Set scroll progress to ([i]{0}[/i], [i]{1}[/i])",
+            "description": "Set progress",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X from 0 to 1"
+              },
+              "y": {
+                "name": "Y",
+                "desc": "Y from 0 to 1"
+              }
+            }
+          },
+          "SetProgressY": {
+            "list-name": "Set progress Y",
+            "display-text": "{my}: Set scroll progress Y to [i]{0}[/i]",
+            "description": "Set progress Y",
+            "params": {
+              "y": {
+                "name": "Y",
+                "desc": "Y from 0 to 1"
+              }
+            }
+          },
+          "SetScrollDirection": {
+            "list-name": "Set scroll direction",
+            "display-text": "{my}: Set scroll direction to [i]{0}[/i]",
+            "description": "Set scroll direction",
+            "params": {
+              "direction": {
+                "name": "Direction",
+                "desc": "Direction",
+                "items": {
+                  "vertical": "vertical",
+                  "horizontal": "horizontal",
+                  "both": "both"
+                }
+              }
+            }
+          },
+          "SetScrollX": {
+            "list-name": "Set scroll X",
+            "display-text": "{my}: Set scroll X to [i]{0}[/i]",
+            "description": "Set scroll X",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X"
+              }
+            }
+          },
+          "SetScrollXY": {
+            "list-name": "Set scroll",
+            "display-text": "{my}: Set scroll to ([i]{0}[/i], [i]{1}[/i])",
+            "description": "Set scroll",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X"
+              },
+              "y": {
+                "name": "Y",
+                "desc": "Y"
+              }
+            }
+          },
+          "SetScrollY": {
+            "list-name": "Set scroll Y",
+            "display-text": "{my}: Set scroll Y to [i]{0}[/i]",
+            "description": "Set scroll Y",
+            "params": {
+              "y": {
+                "name": "Y",
+                "desc": "Y"
+              }
+            }
+          },
+          "SetSnappingEnabled": {
+            "list-name": "Set snapping enabled",
+            "display-text": "{my}: Set snapping enabled to [i]{0}[/i]",
+            "description": "Set snapping enabled",
+            "params": {
+              "enabled": {
+                "name": "Enabled",
+                "desc": "Enabled"
+              }
+            }
+          },
+          "SetDeceleration": {
+            "list-name": "Set deceleration",
+            "display-text": "{my}: Set deceleration to [i]{0}[/i]",
+            "description": "Set deceleration",
+            "params": {
+              "deceleration": {
+                "name": "Deceleration",
+                "desc": "Deceleration"
+              }
+            }
+          },
+          "SetGrid": {
+            "list-name": "Set grid",
+            "display-text": "{my}: Set grid to ([i]{0}[/i], [i]{1}[/i])",
+            "description": "Set grid",
+            "params": {
+              "nbColumns": {
+                "name": "Nb columns",
+                "desc": "Nb columns"
+              },
+              "nbRows": {
+                "name": "Nb rows",
+                "desc": "Nb rows"
+              }
+            }
+          },
+          "SetMaxSpeed": {
+            "list-name": "Set max speed",
+            "display-text": "{my}: Set max speed to [i]{0}[/i]",
+            "description": "Set max speed",
+            "params": {
+              "maxSpeed": {
+                "name": "Max speed",
+                "desc": "Max speed"
+              }
+            }
+          },
+          "SetNbColumns": {
+            "list-name": "Set nb columns",
+            "display-text": "{my}: Set nb columns to [i]{0}[/i]",
+            "description": "Set nb columns",
+            "params": {
+              "nbColumns": {
+                "name": "Nb columns",
+                "desc": "Nb columns"
+              }
+            }
+          },
+          "SetNbRows": {
+            "list-name": "Set nb rows",
+            "display-text": "{my}: Set nb rows to [i]{0}[/i]",
+            "description": "Set nb rows",
+            "params": {
+              "nbRows": {
+                "name": "Nb rows",
+                "desc": "Nb rows"
+              }
+            }
+          },
+          "SetOverScrollPushBack": {
+            "list-name": "Set overscroll push back",
+            "display-text": "{my}: Set overscroll push back to [i]{0}[/i]",
+            "description": "Set overscroll push back",
+            "params": {
+              "pushBack": {
+                "name": "Push back",
+                "desc": "Push back"
+              }
+            }
+          },
+          "SetSnapDistanceThreshold": {
+            "list-name": "Set snap distance threshold",
+            "display-text": "{my}: Set snap distance threshold to [i]{0}[/i]",
+            "description": "Set snap distance threshold",
+            "params": {
+              "distanceThreshold": {
+                "name": "Distance threshold",
+                "desc": "Distance threshold"
+              }
+            }
+          },
+          "SetSnapSpeed": {
+            "list-name": "Set snap speed",
+            "display-text": "{my}: Set snap speed to [i]{0}[/i]",
+            "description": "Set snap speed",
+            "params": {
+              "snapSpeed": {
+                "name": "Snap speed",
+                "desc": "Snap speed"
+              }
+            }
+          },
+          "SetSnapSpeedThreshold": {
+            "list-name": "Set snap speed threshold",
+            "display-text": "{my}: Set snap speed threshold to [i]{0}[/i]",
+            "description": "Set snap speed threshold",
+            "params": {
+              "speedThreshold": {
+                "name": "Speed threshold",
+                "desc": "Speed threshold"
+              }
+            }
+          },
+          "SetVectorX": {
+            "list-name": "Set vector X",
+            "display-text": "{my}: Set vector X to [i]{0}[/i]",
+            "description": "Set vector X",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X"
+              }
+            }
+          },
+          "SetVectorXY": {
+            "list-name": "Set vector",
+            "display-text": "{my}: Set vector to ([i]{0}[/i], [i]{1}[/i])",
+            "description": "Set vector",
+            "params": {
+              "x": {
+                "name": "X",
+                "desc": "X"
+              },
+              "y": {
+                "name": "Y",
+                "desc": "Y"
+              }
+            }
+          },
+          "SetVectorY": {
+            "list-name": "Set vector Y",
+            "display-text": "{my}: Set vector Y to [i]{0}[/i]",
+            "description": "Set vector Y",
+            "params": {
+              "y": {
+                "name": "Y",
+                "desc": "Y"
+              }
+            }
+          }
+        },
+        "conditions": {
+          "IsEnabled": {
+            "list-name": "Is enabled",
+            "display-text": "{my}: Is enabled",
+            "description": "Is enabled",
+            "params": {}
+          },
+          "IsSnappingEnabled": {
+            "list-name": "Is snapping enabled",
+            "display-text": "{my}: Is snapping enabled",
+            "description": "Is snapping enabled",
+            "params": {}
+          }
+        },
+        "expressions": {
+          "Deceleration": {
+            "translated-name": "Deceleration",
+            "description": "Deceleration",
+            "params": {}
+          },
+          "MaxSpeed": {
+            "translated-name": "MaxSpeed",
+            "description": "Max speed",
+            "params": {}
+          },
+          "ScrollHeight": {
+            "translated-name": "ScrollHeight",
+            "description": "Scroll height",
+            "params": {}
+          },
+          "ScrollProgressX": {
+            "translated-name": "ScrollProgressX",
+            "description": "Scroll progress X",
+            "params": {}
+          },
+          "ScrollProgressY": {
+            "translated-name": "ScrollProgressY",
+            "description": "Scroll progress Y",
+            "params": {}
+          },
+          "ScrollWidth": {
+            "translated-name": "ScrollWidth",
+            "description": "Scroll width",
+            "params": {}
+          },
+          "ScrollX": {
+            "translated-name": "ScrollX",
+            "description": "Scroll X",
+            "params": {}
+          },
+          "ScrollY": {
+            "translated-name": "ScrollY",
+            "description": "Scroll Y",
+            "params": {}
+          },
+          "Speed": {
+            "translated-name": "Speed",
+            "description": "Speed",
+            "params": {}
+          },
+          "MarginBottom": {
+            "translated-name": "MarginBottom",
+            "description": "Margin bottom",
+            "params": {}
+          },
+          "MarginLeft": {
+            "translated-name": "MarginLeft",
+            "description": "Margin left",
+            "params": {}
+          },
+          "MarginRight": {
+            "translated-name": "MarginRight",
+            "description": "Margin right",
+            "params": {}
+          },
+          "MarginTop": {
+            "translated-name": "MarginTop",
+            "description": "Margin top",
+            "params": {}
+          },
+          "MaxOverScroll": {
+            "translated-name": "MaxOverScroll",
+            "description": "Max overscroll",
+            "params": {}
+          },
+          "NbColumns": {
+            "translated-name": "NbColumns",
+            "description": "Nb columns",
+            "params": {}
+          },
+          "NbRows": {
+            "translated-name": "NbRows",
+            "description": "Nb rows",
+            "params": {}
+          },
+          "OverScrollPushBack": {
+            "translated-name": "OverScrollPushBack",
+            "description": "OverScrollPushBack",
+            "params": {}
+          },
+          "OverscrollX": {
+            "translated-name": "OverscrollX",
+            "description": "Overscroll",
+            "params": {}
+          },
+          "OverscrollY": {
+            "translated-name": "OverscrollY",
+            "description": "Overscroll",
+            "params": {}
+          },
+          "SnapDistanceThreshold": {
+            "translated-name": "SnapDistanceThreshold",
+            "description": "Snap distance threshold",
+            "params": {}
+          },
+          "SnapSpeed": {
+            "translated-name": "SnapSpeed",
+            "description": "Snap speed",
+            "params": {}
+          },
+          "SnapSpeedThreshold": {
+            "translated-name": "SnapSpeedThreshold",
+            "description": "Snap speed threshold",
+            "params": {}
+          },
+          "VectorX": {
+            "translated-name": "VectorX",
+            "description": "Vector X",
+            "params": {}
+          },
+          "VectorY": {
+            "translated-name": "VectorY",
+            "description": "Vector Y",
+            "params": {}
+          }
+        }
+      }
+    }
+  }
+}
