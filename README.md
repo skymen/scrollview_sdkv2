@@ -1,15 +1,14 @@
 <img src="./src/icon.svg" width="100" /><br>
 # Scroll View
 <i>Handles scrolling a given instance over the area of the object</i> <br>
-### Version 2.0.0.0
+### Version 2.0.0.1
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.0.c3addon/skymen_scrollview-2.0.0.0.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.1.c3addon/skymen_scrollview-2.0.0.1.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/scrollview_sdkv2/releases) </sub> <br>
 
-#### What's New in 2.0.0.0
-- **Added:** SDK v2 port, built with CAW. Projects made with the SDK v1 version load without changes.
-- **Fixed:** Set scroll direction, Set horizontal align, Set vertical align and Set align now work. They were broken in v1. The Enabled property and Set enabled now actually pause the behavior. Scroll direction is now kept in savegames. Removed a wrong max value of 1 on the Overscroll push back and Overscroll deceleration ratio properties.
+#### What's New in 2.0.0.1
+- **Fixed:** Bottom overscroll now springs back smoothly like the other sides. It used to get removed in a single frame, which made it look capped. The bug also exists in the old SDK v1 version.
 
 <sub>[View full changelog](#changelog)</sub>
 
@@ -143,6 +142,9 @@ npm run dev
 
 ---
 ## Changelog
+
+**2.0.0.1**
+- **Fixed:** Bottom overscroll now springs back smoothly like the other sides. It used to get removed in a single frame, which made it look capped. The bug also exists in the old SDK v1 version.
 
 **2.0.0.0**
 - **Added:** SDK v2 port, built with CAW. Projects made with the SDK v1 version load without changes.

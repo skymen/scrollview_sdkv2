@@ -1,4 +1,9 @@
 {
+  "2.0.0.1": {
+    "added": "",
+    "changed": "",
+    "fixed": "Bottom overscroll now springs back smoothly like the other sides. It used to get removed in a single frame, which made it look capped. The bug also exists in the old SDK v1 version."
+  },
   "2.0.0.0": {
     "added": "SDK v2 port, built with CAW. Projects made with the SDK v1 version load without changes.",
     "changed": "",

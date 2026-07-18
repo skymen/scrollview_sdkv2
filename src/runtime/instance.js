@@ -230,7 +230,7 @@ export default function (parentClass) {
               dt
           );
         } else {
-          this.scrollY -= Math.max(
+          this.scrollY -= Math.min(
             this.overscrollY,
             Math.min(0.5, this.overscrollY / this.maxOverScroll) *
               this.overscrollPushback *
