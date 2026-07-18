@@ -3,9 +3,9 @@
 <i>Handles scrolling a given instance over the area of the object</i> <br>
 ### Version 2.0.0.0
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](git@github.com:skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.0.c3addon/skymen_scrollview-2.0.0.0.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.0.c3addon/skymen_scrollview-2.0.0.0.c3addon)
 <br>
-<sub> [See all releases](git@github.com:skymen/scrollview_sdkv2/releases) </sub> <br>
+<sub> [See all releases](https://github.com/skymen/scrollview_sdkv2/releases) </sub> <br>
 
 #### What's New in 2.0.0.0
 - **Added:** SDK v2 port, built with CAW. Projects made with the SDK v1 version load without changes.
