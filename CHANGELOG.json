@@ -1,4 +1,9 @@
 {
+  "2.0.0.3": {
+    "added": "",
+    "changed": "",
+    "fixed": "Scroll progress X and Y now clamped between 0 and 1. Overscroll X and Y still report how far past the end the list has gone."
+  },
   "2.0.0.2": {
     "added": "",
     "changed": "ACE definitions moved to one file per ACE. No behavior change.",

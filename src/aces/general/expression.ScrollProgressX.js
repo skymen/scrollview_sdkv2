@@ -1,12 +1,13 @@
 export const config = {
   highlight: false,
   returnType: "number",
-  description: "Scroll progress X",
+  description:
+    "How far along the X scroll is, from 0 to 1. Overscrolling does not take it past either end, so it can drive a scrollbar directly. Read OverscrollX for how far past the end it has gone",
   params: [],
 };
 
 export const expose = false;
 
 export default function () {
-  return this.scrollProgressX;
+  return Math.min(1, Math.max(0, this.scrollProgressX));
 }

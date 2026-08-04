@@ -1,14 +1,14 @@
 <img src="./examples/cover.png" width="150" /><br>
 # Scroll View
 <i>Handles scrolling a given instance over the area of the object</i> <br>
-### Version 2.0.0.2
+### Version 2.0.0.3
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.2.c3addon/skymen_scrollview-2.0.0.2.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/scrollview_sdkv2/releases/download/skymen_scrollview-2.0.0.3.c3addon/skymen_scrollview-2.0.0.3.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/scrollview_sdkv2/releases) </sub> <br>
 
-#### What's New in 2.0.0.2
-- **Changed:** ACE definitions moved to one file per ACE. No behavior change.
+#### What's New in 2.0.0.3
+- **Fixed:** Scroll progress X and Y now clamped between 0 and 1. Overscroll X and Y still report how far past the end the list has gone.
 
 <sub>[View full changelog](#changelog)</sub>
 
@@ -120,8 +120,8 @@ npm run dev
 | Deceleration | Deceleration | number |  | 
 | MaxSpeed | Max speed | number |  | 
 | ScrollHeight | Scroll height | number |  | 
-| ScrollProgressX | Scroll progress X | number |  | 
-| ScrollProgressY | Scroll progress Y | number |  | 
+| ScrollProgressX | How far along the X scroll is, from 0 to 1. Overscrolling does not take it past either end, so it can drive a scrollbar directly. Read OverscrollX for how far past the end it has gone | number |  | 
+| ScrollProgressY | How far along the Y scroll is, from 0 to 1. Overscrolling does not take it past either end, so it can drive a scrollbar directly. Read OverscrollY for how far past the end it has gone | number |  | 
 | ScrollWidth | Scroll width | number |  | 
 | ScrollX | Scroll X | number |  | 
 | ScrollY | Scroll Y | number |  | 
@@ -145,6 +145,9 @@ npm run dev
 
 ---
 ## Changelog
+
+**2.0.0.3**
+- **Fixed:** Scroll progress X and Y now clamped between 0 and 1. Overscroll X and Y still report how far past the end the list has gone.
 
 **2.0.0.2**
 - **Changed:** ACE definitions moved to one file per ACE. No behavior change.
